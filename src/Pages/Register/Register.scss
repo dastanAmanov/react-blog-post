@@ -1,0 +1,60 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    linear-gradient(rgba(255,255,255, 0.5),rgba(255,255,255, 0.5)), url('https://images.pexels.com/photos/5546909/pexels-photo-5546909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    .register-title{
+        font-size: 50px;
+    }
+    .register-form{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        margin: 10px 0;
+    }
+    .register-input{
+        width: 300px;
+        padding: 10px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+    }
+    .register-button{
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: teal;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .register-login-button{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: lightcoral;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .link{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+@media only screen and (max-width: 480px){
+    .register{
+        .register-title{
+            font-size: 50px;
+        }
+    }
+
+}

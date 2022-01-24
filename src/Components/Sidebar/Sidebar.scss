@@ -1,0 +1,90 @@
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sidebar-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .sidebar-title{
+            width: 80%;
+            margin: 10px;
+            padding: 5px;
+            border-top: 1px solid #a7a4a4;
+            border-bottom: 1px solid #a7a4a4;
+            text-transform: uppercase;
+            font-family: "Varela Round", sans-serif;
+            color: #222;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+        img{
+            width: 370px;
+            margin-top: 15px;
+        }
+        p{
+            font-family: 'Varela Round', sans-serif;
+            font-size: 14px;
+            color: #444;
+            line-height: 24px;
+            padding: 30px;
+        }
+        .sidebar-list{
+            list-style-type: none;
+            margin-bottom: 30px;
+            .sidebar-list-item{
+                display: inline-block;
+                width: 50%;
+                text-align: center;
+                margin-top: 15px;
+                cursor: pointer;
+            }
+        }
+        .sidebar-social{
+            margin-top: 15px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .sidebar-icon{
+                font-size: 16px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .sidebar{
+        margin: 20px;
+        padding-bottom: 30px;
+        .sidebar-item{
+            .sidebar-title{
+                width: 80%;
+                margin: 10px;
+                padding: 5px;
+                font-size: 12px;
+            }
+            img{
+                width: 300px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .sidebar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
+
+}
